@@ -13,6 +13,10 @@
         <e p="appsettings.json" t="Include" />
         <e p="AwsSDK.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="MovieController.cs" t="Include" />
+        </e>
+        <e p="NOTES" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -24,7 +28,46 @@
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
+        <e p="README.md" t="Include" />
+        <e p="Services" t="Include">
+          <e p="IMovieRankService.cs" t="Include" />
+          <e p="MovieRankService.cs" t="Include" />
+        </e>
         <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="AwsSDK.Contracts" t="IncludeRecursive">
+        <e p="AwsSDK.Contracts.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MovieRankRequest.cs" t="Include" />
+        <e p="MovieRankResponse.cs" t="Include" />
+        <e p="MovieResponse.cs" t="Include" />
+        <e p="MovieUpdateRequest.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="AwsSDK.Contracts.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="AwsSDK.Libs" t="IncludeRecursive">
+        <e p="AwsSDK.Libs.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Mappers" t="Include">
+          <e p="IMapper.cs" t="Include" />
+          <e p="Mapper.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="AwsSDK.Libs.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="IMovieRankRepository.cs" t="Include" />
+          <e p="MovieRankRepository.cs" t="Include" />
+        </e>
       </e>
       <e p="AwsSDK.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />

@@ -9,4 +9,8 @@
       <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.3.100.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\AwsSDK.Contracts\AwsSDK.Contracts.csproj" />
+    </ItemGroup>
+
 </Project>

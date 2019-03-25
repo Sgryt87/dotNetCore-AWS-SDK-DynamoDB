@@ -14,7 +14,11 @@
     ],
     "frameworks": {
       "netcoreapp2.2": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK.Contracts/AwsSDK.Contracts.csproj": {
+            "projectPath": "/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK.Contracts/AwsSDK.Contracts.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

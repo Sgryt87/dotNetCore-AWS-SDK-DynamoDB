@@ -7,6 +7,7 @@
     <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p=".git/info/exclude" t="IncludeRecursive" />
       <e p="AwsSDK" t="IncludeRecursive">
         <e p=".gitignore" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
@@ -56,6 +57,9 @@
         <e p="Mappers" t="Include">
           <e p="IMapper.cs" t="Include" />
           <e p="Mapper.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="MovieDb.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

@@ -12,4 +12,9 @@
         <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\AwsSDK.Contracts\AwsSDK.Contracts.csproj" />
+      <ProjectReference Include="..\AwsSDK.Libs\AwsSDK.Libs.csproj" />
+    </ItemGroup>
+
 </Project>

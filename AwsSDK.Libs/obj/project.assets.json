@@ -294,6 +294,20 @@
         "runtime": {
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
+      },
+      "AwsSDK.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.3.100.1",
+          "AWSSDK.Extensions.NETCore.Setup": "3.3.100.1"
+        },
+        "compile": {
+          "bin/placeholder/AwsSDK.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AwsSDK.Contracts.dll": {}
+        }
       }
     }
   },
@@ -944,12 +958,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "AwsSDK.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../AwsSDK.Contracts/AwsSDK.Contracts.csproj",
+      "msbuildProject": "../AwsSDK.Contracts/AwsSDK.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "AWSSDK.DynamoDBv2 >= 3.3.100.1",
       "AWSSDK.Extensions.NETCore.Setup >= 3.3.100.1",
+      "AwsSDK.Contracts >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
@@ -980,7 +1000,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK.Contracts/AwsSDK.Contracts.csproj": {
+              "projectPath": "/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK.Contracts/AwsSDK.Contracts.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

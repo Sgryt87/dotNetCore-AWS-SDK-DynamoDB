@@ -1,0 +1,12 @@
+/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK.Libs/bin/Debug/netcoreapp2.2/AwsSDK.Libs.deps.json
+/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK.Libs/bin/Debug/netcoreapp2.2/AwsSDK.Libs.dll
+/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK.Libs/bin/Debug/netcoreapp2.2/AwsSDK.Libs.pdb
+/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK.Libs/bin/Debug/netcoreapp2.2/AwsSDK.Contracts.dll
+/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK.Libs/bin/Debug/netcoreapp2.2/AwsSDK.Contracts.pdb
+/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK.Libs/obj/Debug/netcoreapp2.2/AwsSDK.Libs.csprojAssemblyReference.cache
+/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK.Libs/obj/Debug/netcoreapp2.2/AwsSDK.Libs.csproj.CoreCompileInputs.cache
+/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK.Libs/obj/Debug/netcoreapp2.2/AwsSDK.Libs.AssemblyInfoInputs.cache
+/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK.Libs/obj/Debug/netcoreapp2.2/AwsSDK.Libs.AssemblyInfo.cs
+/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK.Libs/obj/Debug/netcoreapp2.2/AwsSDK.Libs.csproj.CopyComplete
+/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK.Libs/obj/Debug/netcoreapp2.2/AwsSDK.Libs.dll
+/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK.Libs/obj/Debug/netcoreapp2.2/AwsSDK.Libs.pdb

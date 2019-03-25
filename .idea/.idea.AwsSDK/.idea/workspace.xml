@@ -24,27 +24,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="240c2fc4-7561-4372-af49-abbca0a2cc15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AwsSDK.Contracts/MovieRankRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AwsSDK.Contracts/MovieRankResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AwsSDK.Contracts/MovieResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AwsSDK.Contracts/MovieUpdateRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AwsSDK.Libs/Mappers/IMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AwsSDK.Libs/Mappers/Mapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AwsSDK.Libs/Repositories/IMovieRankRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AwsSDK.Libs/Repositories/MovieRankRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AwsSDK/Controllers/MovieController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AwsSDK/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AwsSDK/Services/IMovieRankService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AwsSDK/Services/MovieRankService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AwsSDKLibs/Mappers/IMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AwsSDKLibs/Mappers/Mapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AwsSDKLibs/Repositories/IMovieRankRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AwsSDKLibs/Repositories/MovieRankRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AwsSDK.Libs/Models/MovieDb.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AwsSDK/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AwsSDK/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AwsSDK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AwsSDK/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AwsSDK.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AwsSDK/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsSDK.Contracts/MovieRankRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK.Contracts/MovieRankRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsSDK.Contracts/MovieRankResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK.Contracts/MovieRankResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsSDK.Contracts/MovieResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK.Contracts/MovieResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsSDK.Contracts/MovieUpdateRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK.Contracts/MovieUpdateRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsSDK.Contracts/obj/Debug/netcoreapp2.2/AwsSDK.Contracts.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK.Contracts/obj/Debug/netcoreapp2.2/AwsSDK.Contracts.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsSDK.Libs/AwsSDK.Libs.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK.Libs/AwsSDK.Libs.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsSDK.Libs/Mappers/IMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK.Libs/Mappers/IMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsSDK.Libs/Mappers/Mapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK.Libs/Mappers/Mapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsSDK.Libs/Repositories/IMovieRankRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK.Libs/Repositories/IMovieRankRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsSDK.Libs/Repositories/MovieRankRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK.Libs/Repositories/MovieRankRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsSDK.Libs/obj/AwsSDK.Libs.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK.Libs/obj/AwsSDK.Libs.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsSDK.Libs/obj/Debug/netcoreapp2.2/AwsSDK.Libs.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK.Libs/obj/Debug/netcoreapp2.2/AwsSDK.Libs.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsSDK.Libs/obj/Debug/netcoreapp2.2/AwsSDK.Libs.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK.Libs/obj/Debug/netcoreapp2.2/AwsSDK.Libs.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsSDK.Libs/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK.Libs/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsSDK.Libs/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK.Libs/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AwsSDK/AwsSDK.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK/AwsSDK.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsSDK/Controllers/MovieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK/Controllers/MovieController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsSDK/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsSDK/Services/IMovieRankService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK/Services/IMovieRankService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsSDK/Services/MovieRankService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK/Services/MovieRankService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AwsSDK/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AwsSDK/Startup.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,97 +56,51 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AwsSDK.Contracts/MovieRankRequest.cs">
+        <entry file="file://$PROJECT_DIR$/AwsSDK/Services/MovieRankService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="223">
+              <caret line="58" column="75" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="75" />
               <folding>
-                <marker date="1553401303837" expanded="true" signature="26:85" ph="{...}" />
-                <marker date="1553401303837" expanded="true" signature="62:83" ph="{...}" />
+                <marker date="1553474307979" expanded="true" signature="6:179" ph="..." />
+                <marker date="1553474307979" expanded="true" signature="206:2356" ph="{...}" />
+                <marker date="1553474307979" expanded="true" signature="262:2354" ph="{...}" />
+                <marker date="1553474307979" expanded="true" signature="463:563" ph="{...}" />
+                <marker date="1553474307979" expanded="true" signature="644:785" ph="{...}" />
+                <marker date="1553474307979" expanded="true" signature="866:1021" ph="{...}" />
+                <marker date="1553474307979" expanded="true" signature="1139:1318" ph="{...}" />
+                <marker date="1553474307979" expanded="true" signature="1401:1553" ph="{...}" />
+                <marker date="1553474307979" expanded="true" signature="1643:1913" ph="{...}" />
+                <marker date="1553474307979" expanded="true" signature="1990:2348" ph="{...}" />
+                <marker date="1553474307979" expanded="true" signature="2230:2337" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AwsSDK.Contracts/MovieRankResponse.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              <folding>
-                <marker date="1553401337467" expanded="true" signature="26:86" ph="{...}" />
-                <marker date="1553401337467" expanded="true" signature="63:84" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AwsSDK.Contracts/MovieResponse.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              <folding>
-                <marker date="1553401357470" expanded="true" signature="26:82" ph="{...}" />
-                <marker date="1553401357470" expanded="true" signature="59:80" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AwsSDK.Contracts/MovieUpdateRequest.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              <folding>
-                <marker date="1553401383771" expanded="true" signature="26:87" ph="{...}" />
-                <marker date="1553401383771" expanded="true" signature="64:85" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AwsSDK/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AwsSDK/NOTES">
+        <entry file="file://$PROJECT_DIR$/AwsSDK/Services/IMovieRankService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AwsSDK/Startup.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="272">
+              <caret line="18" column="63" lean-forward="true" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
               <folding>
-                <marker date="1553401862871" expanded="true" signature="6:274" ph="..." />
-                <marker date="1553401862871" expanded="true" signature="292:1080" ph="{...}" />
-                <marker date="1553401862871" expanded="true" signature="319:1078" ph="{...}" />
-                <marker date="1553401862871" expanded="true" signature="334:549" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
-                <marker date="1553401862871" expanded="true" signature="616:723" ph="{...}" />
-                <marker date="1553401862871" expanded="true" signature="911:1072" ph="{...}" />
-                <marker date="1553401862871" expanded="true" signature="958:1035" ph="{...}" />
+                <marker date="1553474065326" expanded="false" signature="6:87" ph="..." />
+                <marker date="1553474065326" expanded="true" signature="114:626" ph="{...}" />
+                <marker date="1553474065326" expanded="true" signature="155:624" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>GetAllItemsFromDatabase</find>
+      <find>MovieRankRepository</find>
+      <find>GetUsersRankedMoviesByMovieTitle</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -153,27 +109,38 @@
     <setting file="file://$PROJECT_DIR$/AwsSDK.Contracts/MovieRankRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AwsSDKLibs/Repositories/IMovieRankRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AwsSDK.Contracts/MovieRankResponse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AwsSDK/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/05/demos/demo/After/MovieRank/MovieRank.Libs/Repositories/MovieRankRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AwsSDK.Libs/Models/MovieDb.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AwsSDK.Libs/Repositories/IMovieRankRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Ivan/WebApplication1/WebApplication1/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../DutchTreat/Startup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AwsSDK.Libs/Repositories/MovieRankRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AwsSDK/Controllers/MovieController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/05/demos/demo/Before/MovieRank/MovieRank.Libs/Repositories/MovieRankRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AwsSDKLibs/Mappers/Mapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AwsSDK/Services/IMovieRankService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/05/demos/demo/After/MovieRank/MovieRank/Startup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AwsSDKLibs/Repositories/MovieRankRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AwsSDK.Contracts/MovieResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/05/demos/demo/After/MovieRank/MovieRank.Contracts/MovieRankResponse.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AwsSDKLibs/Mappers/IMapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AwsSDK.Contracts/MovieUpdateRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/05/demos/demo/After/MovieRank/MovieRank.Contracts/MovieRankRequest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/08/demos/demo/After/MovieRank/MovieRank/Controllers/MovieController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AwsSDK/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AwsSDK/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AwsSDK/Controllers/MovieController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AwsSDK/Services/IMovieRankService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/05/demos/demo/After/MovieRank/MovieRank/Services/MovieRankService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/05/demos/demo/After/MovieRank/MovieRank/Services/IMovieRankService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AwsSDK/Services/MovieRankService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/05/demos/demo/After/MovieRank/MovieRank/Controllers/MovieController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AwsSDK.Libs/Mappers/IMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/04/demos/MovieRank/MovieRank.Libs/Repositories/MovieRankRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AwsSDK.Libs/Mappers/Mapper.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/AwsSDK/.gitignore" />
-        <option value="$PROJECT_DIR$/AwsSDK/Controllers/MovieController.cs" />
-        <option value="$PROJECT_DIR$/AwsSDK/Services/IMovieRankService.cs" />
-        <option value="$PROJECT_DIR$/AwsSDK/Services/MovieRankService.cs" />
         <option value="$PROJECT_DIR$/MovieRank.Libs/Class1.cs" />
         <option value="$PROJECT_DIR$/MovieRank.Libs/Repositories/IMovieRankRepository.cs" />
         <option value="$PROJECT_DIR$/MovieRank.Libs/Repositories/MovieRankRepository.cs" />
@@ -185,17 +152,22 @@
         <option value="$PROJECT_DIR$/AwsSDKLibs/Repositories/IMovieRankRepository.cs" />
         <option value="$PROJECT_DIR$/AwsSDKLibs/Repositories/MovieRankRepository.cs" />
         <option value="$PROJECT_DIR$/AwsSDK.Libs/Class1.cs" />
+        <option value="$PROJECT_DIR$/AwsSDK/README.md" />
+        <option value="$PROJECT_DIR$/AwsSDK.Contracts/MovieResponse.cs" />
+        <option value="$PROJECT_DIR$/AwsSDK.Contracts/MovieRankResponse.cs" />
+        <option value="$PROJECT_DIR$/AwsSDK/Program.cs" />
+        <option value="$PROJECT_DIR$/AwsSDK/Startup.cs" />
+        <option value="$PROJECT_DIR$/AwsSDK/NOTES" />
+        <option value="$PROJECT_DIR$/AwsSDK.Contracts/MovieRankRequest.cs" />
+        <option value="$PROJECT_DIR$/AwsSDK.Contracts/MovieUpdateRequest.cs" />
         <option value="$PROJECT_DIR$/AwsSDK.Libs/Mappers/IMapper.cs" />
         <option value="$PROJECT_DIR$/AwsSDK.Libs/Mappers/Mapper.cs" />
-        <option value="$PROJECT_DIR$/AwsSDK.Libs/Repositories/IMovieRankRepository.cs" />
+        <option value="$PROJECT_DIR$/AwsSDK/Controllers/MovieController.cs" />
         <option value="$PROJECT_DIR$/AwsSDK.Libs/Repositories/MovieRankRepository.cs" />
-        <option value="$PROJECT_DIR$/AwsSDK.Contracts/MovieRankRequest.cs" />
-        <option value="$PROJECT_DIR$/AwsSDK.Contracts/MovieRankResponse.cs" />
-        <option value="$PROJECT_DIR$/AwsSDK.Contracts/MovieResponse.cs" />
-        <option value="$PROJECT_DIR$/AwsSDK.Contracts/MovieUpdateRequest.cs" />
-        <option value="$PROJECT_DIR$/AwsSDK/Startup.cs" />
-        <option value="$PROJECT_DIR$/AwsSDK/README.md" />
-        <option value="$PROJECT_DIR$/AwsSDK/NOTES" />
+        <option value="$PROJECT_DIR$/AwsSDK.Libs/Models/MovieDb.cs" />
+        <option value="$PROJECT_DIR$/AwsSDK.Libs/Repositories/IMovieRankRepository.cs" />
+        <option value="$PROJECT_DIR$/AwsSDK/Services/MovieRankService.cs" />
+        <option value="$PROJECT_DIR$/AwsSDK/Services/IMovieRankService.cs" />
       </list>
     </option>
   </component>
@@ -206,6 +178,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="361" />
+    <option name="y" value="1080" />
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -230,6 +204,18 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="AwsSDK" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="AwsSDK" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="AwsSDK" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="AwsSDK" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="AwsSDK" type="24d0babc:SolutionExplorerModelNode" />
               <item name="AwsSDK.Contracts" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
@@ -241,14 +227,7 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="AwsSDK" type="24d0babc:SolutionExplorerModelNode" />
               <item name="AwsSDK.Libs" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="AwsSDK" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="AwsSDK.Libs" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-              <item name=".NETCoreApp 2.2" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -304,12 +283,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553400147417</updated>
-      <workItem from="1553400148966" duration="2327000" />
+      <workItem from="1553400148966" duration="10368000" />
+      <workItem from="1553448115814" duration="2829000" />
+      <workItem from="1553471472434" duration="61000" />
+      <workItem from="1553471542285" duration="2424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2327000" />
+    <option name="totallyTimeSpent" value="15682000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -321,41 +303,73 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="361" y="1080" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26009694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" weight="0.46110326" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="REST Client" />
-      <window_info anchor="bottom" id="TeamCity" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32956153" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33521923" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.46110326" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="REST Client" order="12" />
+      <window_info anchor="bottom" id="TeamCity" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.23055163" />
+      <window_info anchor="bottom" id="Terminal" order="16" weight="0.28288543" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Errors In Solution" order="5" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26009694" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33521923" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.46110326" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="REST Client" order="12" />
+      <window_info anchor="bottom" id="TeamCity" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.23055163" />
+      <window_info anchor="bottom" id="Terminal" order="16" weight="0.28288543" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Errors In Solution" order="5" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -375,49 +389,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MovieRank.Libs/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AwsSDK/Services/IMovieRankService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <marker date="1553400439873" expanded="true" signature="25:89" ph="{...}" />
-            <marker date="1553400439873" expanded="true" signature="66:87" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AwsSDK/Controllers/MovieController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-          <folding>
-            <marker date="1553400399278" expanded="true" signature="61:123" ph="{...}" />
-            <marker date="1553400399278" expanded="true" signature="109:121" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AwsSDK/Services/MovieRankService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <marker date="1553400464891" expanded="true" signature="25:84" ph="{...}" />
-            <marker date="1553400464891" expanded="true" signature="61:82" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AwsSDK.Contracts/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/MovieRank.Libs/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/AwsSDK.Contracts/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/AwsSDKLibs/Repositories/IMovieRankRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -440,9 +413,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AwsSDK.Libs/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/AwsSDK.Libs/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/AwsSDKLibs/Mappers/IMapper.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -465,109 +436,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AwsSDK.Libs/Mappers/Mapper.cs">
+    <entry file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/05/demos/demo/After/MovieRank/MovieRank/Services/MovieRankService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        <state relative-caret-position="255">
+          <caret line="21" column="77" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="77" />
           <folding>
-            <marker date="1553401155228" expanded="true" signature="29:88" ph="{...}" />
-            <marker date="1553401155228" expanded="true" signature="65:86" ph="{...}" />
+            <marker date="1540295058000" expanded="false" signature="6:188" ph="..." />
+            <marker date="1540295058000" expanded="true" signature="218:2333" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="274:2331" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="475:575" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="656:797" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="878:1033" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="1151:1330" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="1413:1565" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="1644:1892" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="1969:2325" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="2207:2314" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AwsSDK.Libs/Repositories/MovieRankRepository.cs">
+    <entry file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/04/demos/MovieRank/MovieRank.Libs/Repositories/MovieRankRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+        <state>
           <folding>
-            <marker date="1553401218302" expanded="true" signature="34:110" ph="{...}" />
-            <marker date="1553401218302" expanded="true" signature="96:108" ph="{...}" />
+            <marker date="1539257048000" expanded="false" signature="6:66" ph="..." />
+            <marker date="1539257048000" expanded="true" signature="105:181" ph="{...}" />
+            <marker date="1539257048000" expanded="true" signature="167:179" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AwsSDK.Libs/Repositories/IMovieRankRepository.cs">
+    <entry file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/05/demos/demo/Before/MovieRank/MovieRank.Libs/Repositories/MovieRankRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state>
           <folding>
-            <marker date="1553401204597" expanded="true" signature="34:101" ph="{...}" />
-            <marker date="1553401204597" expanded="true" signature="78:99" ph="{...}" />
+            <element signature="e#0#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AwsSDK.Libs/Mappers/IMapper.cs">
+    <entry file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/05/demos/demo/After/MovieRank/MovieRank.Libs/Repositories/MovieRankRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="272">
+          <caret line="20" column="67" lean-forward="true" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
           <folding>
-            <marker date="1553401143104" expanded="true" signature="29:83" ph="{...}" />
-            <marker date="1553401143104" expanded="true" signature="60:81" ph="{...}" />
+            <element signature="e#0#191#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AwsSDK.Contracts/MovieRankRequest.cs">
+    <entry file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/05/demos/demo/After/MovieRank/MovieRank/Services/IMovieRankService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="136">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="38" />
           <folding>
-            <marker date="1553401303837" expanded="true" signature="26:85" ph="{...}" />
-            <marker date="1553401303837" expanded="true" signature="62:83" ph="{...}" />
+            <element signature="e#0#90#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AwsSDK.Contracts/MovieRankResponse.cs">
+    <entry file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/05/demos/demo/After/MovieRank/MovieRank.Contracts/MovieRankResponse.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="50" />
           <folding>
-            <marker date="1553401337467" expanded="true" signature="26:86" ph="{...}" />
-            <marker date="1553401337467" expanded="true" signature="63:84" ph="{...}" />
+            <element signature="e#0#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AwsSDK.Contracts/MovieResponse.cs">
+    <entry file="file://$PROJECT_DIR$/../../Ivan/WebApplication1/WebApplication1/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="98">
+          <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="89" selection-end-column="72" />
           <folding>
-            <marker date="1553401357470" expanded="true" signature="26:82" ph="{...}" />
-            <marker date="1553401357470" expanded="true" signature="59:80" ph="{...}" />
+            <element signature="e#0#595#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AwsSDK.Contracts/MovieUpdateRequest.cs">
+    <entry file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/05/demos/demo/After/MovieRank/MovieRank/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state>
           <folding>
-            <marker date="1553401383771" expanded="true" signature="26:87" ph="{...}" />
-            <marker date="1553401383771" expanded="true" signature="64:85" ph="{...}" />
+            <element signature="e#0#235#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AwsSDK/Startup.cs">
+    <entry file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/05/demos/demo/After/MovieRank/MovieRank/Controllers/MovieController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="152">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <marker date="1553401862871" expanded="true" signature="6:274" ph="..." />
-            <marker date="1553401862871" expanded="true" signature="292:1080" ph="{...}" />
-            <marker date="1553401862871" expanded="true" signature="319:1078" ph="{...}" />
-            <marker date="1553401862871" expanded="true" signature="334:549" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
-            <marker date="1553401862871" expanded="true" signature="616:723" ph="{...}" />
-            <marker date="1553401862871" expanded="true" signature="911:1072" ph="{...}" />
-            <marker date="1553401862871" expanded="true" signature="958:1035" ph="{...}" />
+            <marker date="1540295058000" expanded="false" signature="6:148" ph="..." />
+            <marker date="1540295058000" expanded="true" signature="251:2098" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="387:457" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="556:682" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="821:947" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="1141:1293" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="1449:1567" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="1720:1832" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="1970:2092" ph="{...}" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/08/demos/demo/After/MovieRank/MovieRank/Controllers/MovieController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-649">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <marker date="1540295058000" expanded="false" signature="6:148" ph="..." />
+            <marker date="1540295058000" expanded="true" signature="181:2100" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="251:2098" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="387:457" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="556:682" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="821:947" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="1141:1293" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="1449:1567" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="1720:1832" ph="{...}" />
+            <marker date="1540295058000" expanded="true" signature="1970:2092" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwsSDK/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwsSDK/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DutchTreat/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1328">
+          <folding>
+            <element signature="e#0#577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwsSDK/Properties/launchSettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/AwsSDK/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -579,8 +590,216 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AwsSDK/NOTES">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwsSDK/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="39" selection-start-line="39" selection-end-line="40" selection-end-column="25" />
+          <folding>
+            <marker date="1553446355488" expanded="false" signature="6:388" ph="..." />
+            <marker date="1553446355488" expanded="true" signature="433:1506" ph="{...}" />
+            <marker date="1553446355488" expanded="true" signature="448:663" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
+            <marker date="1553446355488" expanded="true" signature="730:1151" ph="{...}" />
+            <marker date="1553446355488" expanded="true" signature="1339:1500" ph="{...}" />
+            <marker date="1553446355488" expanded="true" signature="1386:1463" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwsSDK/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <marker date="1553437388761" expanded="false" signature="6:255" ph="..." />
+            <marker date="1553437388761" expanded="true" signature="300:695" ph="{...}" />
+            <marker date="1553437388761" expanded="true" signature="353:427" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../aws-dotnet-core-developing-applications-dynamodb/05/demos/demo/After/MovieRank/MovieRank.Contracts/MovieRankRequest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwsSDK.Contracts/MovieResponse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <marker date="1553435033681" expanded="true" signature="61:339" ph="{...}" />
+            <marker date="1553435033681" expanded="true" signature="94:337" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwsSDK.Contracts/MovieRankRequest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1553471843454" expanded="true" signature="61:295" ph="{...}" />
+            <marker date="1553471843454" expanded="true" signature="97:293" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwsSDK.Libs/Mappers/IMapper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="78" lean-forward="true" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+          <folding>
+            <marker date="1553473271332" expanded="false" signature="6:102" ph="..." />
+            <marker date="1553473271332" expanded="true" signature="133:491" ph="{...}" />
+            <marker date="1553473271332" expanded="true" signature="164:489" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwsSDK.Contracts/MovieUpdateRequest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <marker date="1553472649015" expanded="true" signature="26:165" ph="{...}" />
+            <marker date="1553472649015" expanded="true" signature="64:163" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwsSDK.Libs/Mappers/Mapper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding>
+            <marker date="1553473348082" expanded="false" signature="6:116" ph="..." />
+            <marker date="1553473348082" expanded="true" signature="147:1715" ph="{...}" />
+            <marker date="1553473348082" expanded="true" signature="183:1713" ph="{...}" />
+            <marker date="1553473348082" expanded="true" signature="275:345" ph="{...}" />
+            <marker date="1553473348082" expanded="true" signature="406:718" ph="{...}" />
+            <marker date="1553473348082" expanded="true" signature="468:707" ph="{...}" />
+            <marker date="1553473348082" expanded="true" signature="804:1197" ph="{...}" />
+            <marker date="1553473348082" expanded="true" signature="860:1186" ph="{...}" />
+            <marker date="1553473348082" expanded="true" signature="1331:1707" ph="{...}" />
+            <marker date="1553473348082" expanded="true" signature="1387:1696" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwsSDK.Libs/Repositories/IMovieRankRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+          <folding>
+            <marker date="1553473979309" expanded="false" signature="6:89" ph="..." />
+            <marker date="1553473979309" expanded="true" signature="125:549" ph="{...}" />
+            <marker date="1553473979309" expanded="true" signature="169:547" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwsSDK.Libs/Models/MovieDb.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <marker date="1553473955124" expanded="false" signature="6:68" ph="..." />
+            <marker date="1553473955124" expanded="true" signature="98:520" ph="{...}" />
+            <marker date="1553473955124" expanded="true" signature="158:518" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwsSDK.Libs/Repositories/MovieRankRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding>
+            <marker date="1553473881811" expanded="false" signature="6:188" ph="..." />
+            <marker date="1553473881811" expanded="true" signature="224:1906" ph="{...}" />
+            <marker date="1553473881811" expanded="true" signature="286:1904" ph="{...}" />
+            <marker date="1553473881811" expanded="true" signature="411:491" ph="{...}" />
+            <marker date="1553473881811" expanded="true" signature="554:675" ph="{...}" />
+            <marker date="1553473881811" expanded="true" signature="750:843" ph="{...}" />
+            <marker date="1553473881811" expanded="true" signature="955:1330" ph="{...}" />
+            <marker date="1553473881811" expanded="true" signature="1033:1227" ph="{...}" />
+            <marker date="1553473881811" expanded="true" signature="1107:1213" ph="{...}" />
+            <marker date="1553473881811" expanded="true" signature="1383:1450" ph="{...}" />
+            <marker date="1553473881811" expanded="true" signature="1506:1573" ph="{...}" />
+            <marker date="1553473881811" expanded="true" signature="1653:1898" ph="{...}" />
+            <marker date="1553473881811" expanded="true" signature="1731:1792" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwsSDK/Controllers/MovieController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <marker date="1553473683147" expanded="false" signature="6:142" ph="..." />
+            <marker date="1553473683147" expanded="true" signature="172:2137" ph="{...}" />
+            <marker date="1553473683147" expanded="true" signature="242:2135" ph="{...}" />
+            <marker date="1553473683147" expanded="true" signature="378:448" ph="{...}" />
+            <marker date="1553473683147" expanded="true" signature="547:673" ph="{...}" />
+            <marker date="1553473683147" expanded="true" signature="812:938" ph="{...}" />
+            <marker date="1553473683147" expanded="true" signature="1132:1284" ph="{...}" />
+            <marker date="1553473683147" expanded="true" signature="1452:1570" ph="{...}" />
+            <marker date="1553473683147" expanded="true" signature="1746:1869" ph="{...}" />
+            <marker date="1553473683147" expanded="true" signature="2007:2129" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwsSDK.Contracts/MovieRankResponse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding>
+            <marker date="1553436407590" expanded="true" signature="26:175" ph="{...}" />
+            <marker date="1553436407590" expanded="true" signature="63:173" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwsSDK/Services/MovieRankService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="58" column="75" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="75" />
+          <folding>
+            <marker date="1553474307979" expanded="true" signature="6:179" ph="..." />
+            <marker date="1553474307979" expanded="true" signature="206:2356" ph="{...}" />
+            <marker date="1553474307979" expanded="true" signature="262:2354" ph="{...}" />
+            <marker date="1553474307979" expanded="true" signature="463:563" ph="{...}" />
+            <marker date="1553474307979" expanded="true" signature="644:785" ph="{...}" />
+            <marker date="1553474307979" expanded="true" signature="866:1021" ph="{...}" />
+            <marker date="1553474307979" expanded="true" signature="1139:1318" ph="{...}" />
+            <marker date="1553474307979" expanded="true" signature="1401:1553" ph="{...}" />
+            <marker date="1553474307979" expanded="true" signature="1643:1913" ph="{...}" />
+            <marker date="1553474307979" expanded="true" signature="1990:2348" ph="{...}" />
+            <marker date="1553474307979" expanded="true" signature="2230:2337" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwsSDK/Services/IMovieRankService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="63" lean-forward="true" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+          <folding>
+            <marker date="1553474065326" expanded="false" signature="6:87" ph="..." />
+            <marker date="1553474065326" expanded="true" signature="114:626" ph="{...}" />
+            <marker date="1553474065326" expanded="true" signature="155:624" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

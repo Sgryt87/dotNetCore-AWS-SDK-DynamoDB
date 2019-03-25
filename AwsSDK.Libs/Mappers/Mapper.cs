@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Amazon.DynamoDBv2.Model;
 using AwsSDK.Contracts;
 using AwsSDK.Libs.Models;
 
@@ -8,47 +9,35 @@ namespace AwsSDK.Libs.Mappers
 {
     public class Mapper : IMapper
     {
-        public IEnumerable<MovieResponse> ToMovieContract(IEnumerable<MovieDb> items)
+        public IEnumerable<MovieResponse> ToMovieContract(ScanResponse response)
         {
-            return items.Select(ToMovieContract);
+            return response.Items.Select(ToMovieContract);
         }
 
-        public MovieResponse ToMovieContract(MovieDb movie)
+        public IEnumerable<MovieResponse> ToMovieContract(QueryResponse response)
         {
-            return new MovieResponse()
+            return response.Items.Select(ToMovieContract);
+        }
+
+        private MovieResponse ToMovieContract(Dictionary<string, AttributeValue> item)
+        {
+            return new MovieResponse
             {
-                MovieName = movie.MovieName,
-                Description = movie.Description,
-                Actors = movie.Actors,
-                Ranking = movie.Ranking,
-                TimeRanked = movie.RankedDateTime
+                MovieName = item["MovieName"].S,
+                Description = item["Description"].S,
+                Actors = item["Actors"].SS,
+                Ranking = Convert.ToInt32(item["Ranking"].N)
             };
         }
 
-        public MovieDb ToMovieDbModel(int userId, MovieRankRequest movieRankRequest)
+        public MovieResponse ToMovieContract(GetItemResponse response)
         {
-            return new MovieDb()
+            return new MovieResponse
             {
-                UserId = userId,
-                MovieName = movieRankRequest.MovieName,
-                Description = movieRankRequest.Description,
-                Actors = movieRankRequest.Actors,
-                Ranking = movieRankRequest.Ranking,
-                RankedDateTime = DateTime.UtcNow.ToString()
-            };
-        }
-
-        // overload method
-        public MovieDb ToMovieDbModel(int userId, MovieDb movieDb, MovieUpdateRequest movieUpdateRequest)
-        {
-            return new MovieDb()
-            {
-                UserId = movieDb.UserId,
-                MovieName = movieDb.MovieName,
-                Description = movieDb.Description,
-                Actors = movieDb.Actors,
-                Ranking = movieUpdateRequest.Ranking,
-                RankedDateTime = DateTime.UtcNow.ToString()
+                MovieName = response.Item["MovieName"].S,
+                Description = response.Item["Description"].S,
+                Actors = response.Item["Actors"].SS,
+                Ranking = Convert.ToInt32(response.Item["Ranking"].N)
             };
         }
     }

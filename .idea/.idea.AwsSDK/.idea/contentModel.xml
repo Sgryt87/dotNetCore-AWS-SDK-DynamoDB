@@ -16,6 +16,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="MovieController.cs" t="Include" />
+          <e p="SetupController.cs" t="Include" />
         </e>
         <e p="NOTES" t="Include" />
         <e p="obj" t="ExcludeRecursive">
@@ -32,7 +33,9 @@
         <e p="README.md" t="Include" />
         <e p="Services" t="Include">
           <e p="IMovieRankService.cs" t="Include" />
+          <e p="ISetupService.cs" t="Include" />
           <e p="MovieRankService.cs" t="Include" />
+          <e p="SetupService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
       </e>

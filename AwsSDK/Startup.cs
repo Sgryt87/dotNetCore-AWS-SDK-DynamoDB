@@ -28,6 +28,7 @@ namespace AwsSDK
             services.AddSingleton<IMovieRankService, MovieRankService>();
             services.AddSingleton<IMovieRankRepository, MovieRankRepository>();
             services.AddSingleton<IMapper, Mapper>();
+            services.AddSingleton<ISetupService, SetupService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

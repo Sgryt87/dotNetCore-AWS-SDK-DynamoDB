@@ -42,25 +42,20 @@ namespace AwsSDK.Services
 
         public async Task AddMovie(int userId, MovieRankRequest movieRankRequest)
         {
-            var movieDb = _map.ToMovieDbModel(userId, movieRankRequest);
-
-            await _movieRankRepository.AddMovie(movieDb);
+            await _movieRankRepository.AddMovie(userId, movieRankRequest);
         }
 
         public async Task UpdateMovie(int userId, MovieUpdateRequest movieUpdateRequest)
         {
-            var response = await _movieRankRepository.GetMovie(userId, movieUpdateRequest.MovieName);
-
-            var movieDb = _map.ToMovieDbModel(userId, response, movieUpdateRequest);
-
-            await _movieRankRepository.UpdateMovie(movieDb);
+            await _movieRankRepository.UpdateMovie(userId, movieUpdateRequest);
         }
 
         public async Task<MovieRankResponse> GetMovieRank(string movieName)
         {
             var response = await _movieRankRepository.GetMovieRank(movieName);
 
-            var overallMovieRanking = Math.Round(response.Select(x => x.Ranking).Average());
+            var overallMovieRanking =
+                Math.Round(response.Items.Select(item => Convert.ToInt32(item["Ranking"].N)).Average());
 
             return new MovieRankResponse()
             {

@@ -1,0 +1,67 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK.Integration.Tests/AwsSDK.Integration.Tests.csproj",
+    "projectName": "AwsSDK.Integration.Tests",
+    "projectPath": "/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK.Integration.Tests/AwsSDK.Integration.Tests.csproj",
+    "outputPath": "/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK.Integration.Tests/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK/AwsSDK.csproj": {
+            "projectPath": "/Users/sgryt/Sites/CSharp/Pluralsight/AwsSDK/AwsSDK/AwsSDK.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "[2.2.3, )"
+        },
+        "Microsoft.AspNetCore.TestHost": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[15.9.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
